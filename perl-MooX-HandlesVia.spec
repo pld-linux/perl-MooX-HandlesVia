@@ -8,7 +8,7 @@
 Summary:	MooX::HandlesVia - NativeTrait-like behavior for Moo
 Name:		perl-MooX-HandlesVia
 Version:	0.001007
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -60,9 +60,15 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes TODO
 %{perl_vendorlib}/MooX/HandlesVia.pm
+%dir %{perl_vendorlib}/Data/Perl/Bool
 %{perl_vendorlib}/Data/Perl/Bool/MooseLike.pm
+%dir %{perl_vendorlib}/Data/Perl/Collection
+%dir %{perl_vendorlib}/Data/Perl/Collection/Array
 %{perl_vendorlib}/Data/Perl/Collection/Array/MooseLike.pm
+%dir %{perl_vendorlib}/Data/Perl/Collection/Hash
 %{perl_vendorlib}/Data/Perl/Collection/Hash/MooseLike.pm
+%dir %{perl_vendorlib}/Data/Perl/Number
 %{perl_vendorlib}/Data/Perl/Number/MooseLike.pm
+%dir %{perl_vendorlib}/Data/Perl/String
 %{perl_vendorlib}/Data/Perl/String/MooseLike.pm
 %{_mandir}/man3/*
