@@ -4,7 +4,6 @@
 #
 %define		pdir	MooX
 %define		pnam	HandlesVia
-%include	/usr/lib/rpm/macros.perl
 Summary:	MooX::HandlesVia - NativeTrait-like behavior for Moo
 Name:		perl-MooX-HandlesVia
 Version:	0.001007
