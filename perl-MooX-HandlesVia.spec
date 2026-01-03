@@ -6,14 +6,14 @@
 %define		pnam	HandlesVia
 Summary:	MooX::HandlesVia - NativeTrait-like behavior for Moo
 Name:		perl-MooX-HandlesVia
-Version:	0.001007
-Release:	2
+Version:	0.001009
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/MooX/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	9744cfe9e431c6510d73409a27522e47
-URL:		http://search.cpan.org/dist/MooX-HandlesVia/
+Source0:	https://www.cpan.org/modules/by-module/MooX/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	d065b51bb351ae1ef2052e188771efc2
+URL:		https://search.cpan.org/dist/MooX-HandlesVia/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
